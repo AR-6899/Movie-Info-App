@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#090d1d 50%, #1e40af 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 50vw;
+    min-height: 35vh;
+    max-height: 95vh;
+    background-color: #1f2a3a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 10px;
+}
+
+.heading {
+    height: 4vh;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.sch-box {
+    display: flex;
+    justify-self: center;
+    height: 8vh;
+    width: 80%;
+    gap: 15px;
+}
+
+.sch-bar {
+    width: 70%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #334155;
+}
+
+.sch-btn {
+    width: 25%;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: #1e40af;
+}
+
+.sch-btn:hover {
+    background-color: #334155;
+    cursor: pointer;
+}
+
+.movie-bdy {
+    max-height: 80vh;
+    width: 85%;
+    overflow: auto;
+}
+
+.moviebox {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.head {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.poster {
+    width: 40%;
+}
+
+.poster img {
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+}
+
+.add-info {
+    display: flex;
+    gap: 14px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-l {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-g {
+    color: lightgrey;
+}
+
+.text-b {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+}
